@@ -1,6 +1,9 @@
 # John Doe Portfolio Website  
 
-This is a simple, clean portfolio template I built. The idea was to create something professional but still approachable where visitors can learn about the person behind the work and get a good sense of their projects and abilities.  
+This is a simple, clean portfolio template I built. The idea was to create something professional but still approachable where visitors can learn about the person behind the work and get a good sense of their projects and abilities. 
+
+![SCREENSHOT](IMG_20241123_063634.jpg)
+![SCREENSHOT](IMG_20241123_063734.jpg)
 
 ## Tools Used  
 
