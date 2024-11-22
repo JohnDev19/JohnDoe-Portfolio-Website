@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JohnDoe19 | Web Developer & Graphic Designer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Marcellus&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <i class="fas fa-code"></i>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+    <div class="hero-content">
+        <div class="text-content">
+            <h1>JOHN DOE</h1>
+            <p>Creative Web Developer and Passionate Graphic Designer</p>
+            <a href="#contact" class="cta-btn">Start a Project</a>
+        </div>
+        <img src="assets/images/3d-male-character-sitting-on-a-sofa-and-working-on-a-laptop_24785818.png" alt="JOHN DOE" class="hero-image">
+    </div>
+</section>
+
+    <section class="about" id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="assets/images/cottonbro-5474285.jpg" alt="Profile Image">
+            </div>
+            <div class="about-text">
+                <p>Hello! I'm a passionate web developer and graphic designer with over 5 years of experience in crafting beautiful, functional digital experiences. I specialize in building modern websites and applications that not only look great but also solve real business problems.</p><br>
+                <p>With expertise in both development and design, I bridge the gap between aesthetics and functionality, ensuring every project delivers exceptional results. My approach combines creative thinking with technical excellence to create solutions that stand out in today's digital landscape.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="section-title">Skills & Expertise</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fas fa-code skill-icon"></i>
+                <h3>Web Development</h3>
+                <p>HTML5, CSS3, JavaScript, React, Next.js, Node.js, TypeScript</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-palette skill-icon"></i>
+                <h3>Design</h3>
+                <p>UI/UX Design, Graphic Design, Adobe Creative Suite, Figma</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-mobile-alt skill-icon"></i>
+                <h3>Responsive Design</h3>
+                <p>Mobile-First, Cross-Platform, Progressive Web Apps</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="assets/images/p1.jpg" alt="Project 1" class="project-image">
+                <div class="project-overlay">
+                    <h3 class="project-title">E-Commerce Platform</h3>
+                    <p class="project-description">A modern e-commerce platform built with Next.js, featuring real-time inventory management and seamless payment integration.</p>
+                    <a href="#" class="project-link">View Details</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="assets/images/p2.jpg" alt="Project 2" class="project-image">
+                <div class="project-overlay">
+                    <h3 class="project-title">Brand Identity</h3>
+                    <p class="project-description">Complete brand identity design including logo, guidelines, and marketing materials for a tech startup.</p>
+                    <a href="#" class="project-link">View Details</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="assets/images/p3.jpg" alt="Project 3" class="project-image">
+                <div class="project-overlay">
+                    <h3 class="project-title">Analytics Dashboard</h3>
+                    <p class="project-description">Interactive dashboard with real-time data visualization, built using React and D3.js.</p>
+                    <a href="#" class="project-link">View Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="section-title">Let's Work Together</h2>
+        <div class="contact-content">
+            <form class="contact-form" id="contact-form">
+                <div class="form-group">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" id="name" class="form-input" required placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id="email" class="form-input" required placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea id="message" class="form-textarea" required placeholder="Tell me about your project"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-text">&copy; 2024 JohnDoe19. Creating digital experiences.</p>
+            <div class="social-links">
+                <a href="#" class="social-link" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="social-link" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="#" class="social-link" aria-label="Dribbble">
+                    <i class="fab fa-dribbble"></i>
+                </a>
+                <a href="#" class="social-link" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
